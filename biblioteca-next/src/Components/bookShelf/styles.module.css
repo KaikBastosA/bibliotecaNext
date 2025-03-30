@@ -1,0 +1,73 @@
+.shelf {
+    margin: 5rem 0;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .header h2 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  
+  .viewMore {
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: none;
+    color: #EF6B4A;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .books {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .book {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: #F4F4FF;
+    border: solid 1px rgba(9, 9, 55, 0.1);
+    border-radius: 4px;
+    padding: 1rem;
+    gap: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .book img {
+    width: 7.5rem;
+    height: 11.25rem;
+    border-radius: 0.25rem;
+  }
+  
+  .book h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #090937;
+    margin: 0.5rem 0;
+  }
+  
+  .book p {
+    font-size: 1rem;
+    color: #090937;
+  }
+  
+  .book .info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book .bookPrice {
+    font-size: 2rem;
+    color: #6251DD;
+    font-weight: 700;
+    margin-top: auto;
+  }
